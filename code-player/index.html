@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Suraj CodePlayer Website</title>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div id = "container">
+	<div id = "header">
+		<div id = "name">
+			Suraj CodePlayer
+		</div>
+		
+		<div id = "buttonRun">
+			<button>Run</button>
+		</div>
+		
+		<div >
+			<ul id="togglelist">
+				<li class="toggle selected">HTML</li>
+				<li class="toggle" >CSS</li>
+				<li class="toggle" >JS</li>
+				<li style="border:none" class="toggle selected">Result</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id = "HTMLContainer" class="codeContainer">
+		<div class = "codeLabel">HTML</div>
+		<textarea id="htmlCode"><div id="test"></div></textarea>
+	</div>
+	<div id = "CSSContainer" class="codeContainer">
+		<div class="codeLabel">CSS</div>
+		<textarea id="cssCode">html {background-color:blue}</textarea>
+	</div>
+	<div id = "JSContainer" class="codeContainer">
+		<div class="codeLabel">JS</div>
+		<textarea id="jsCode">document.getElementById("test").innerHTML = "It's working !";</textarea>
+	</div>
+	<div id = "ResultContainer" class="codeContainer">
+		<div class="codeLabel">Result</div>
+		<iframe id="resultFrame"></iframe>
+	</div>
+</div>
+
+<script src="js/script.js">
+</script>
+</body>
+</html>

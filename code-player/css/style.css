@@ -1,0 +1,83 @@
+body{
+	margin:0;
+	padding: 0;
+}
+#header{
+	width:100%;
+	height:50px;
+	background:#E0E0D1;
+}
+#name{
+	
+	padding:10px;
+	font-weight:bold;
+	font-size:150% ;
+	float: left;
+	
+}
+#buttonRun{
+	
+	float: right;
+	padding: 10px 10px 0px 0px; 
+}
+
+
+button{
+	font-size: 125%;
+	
+}
+#togglelist{
+
+	width: 189px;
+	height:27px;
+	margin:0 auto;
+	border: 1px solid grey;
+	border-radius: 3px;
+	list-style:none;
+	padding:0px;
+	position:relative;
+	top:10px;
+	
+}
+#togglelist li{
+	float:left;
+	border-right: 1px solid grey;
+	padding:5px 5px 5px 9px;
+}
+.codeContainer{
+	width:50%;
+	height: 100%;
+	float:left;
+	position: relative;
+	}
+.codeLabel{
+	position: absolute;
+	top: 10px;
+	right:10px;
+	border: 1px solid black;
+}	
+.codeContainer textarea{
+	height:100%;
+	width:100%;
+	border: none;
+	border-right: 1px solid grey;
+	padding:5px;
+	font-size:100%;
+	font-family:monotype;
+	box-sizing: border-box;
+	
+}
+#CSSContainer, #JSContainer{
+	display: none;
+
+}
+iframe{
+	height:100%;
+	position:relative;
+	left:20px;
+	border:none;
+}
+.selected{
+	background:grey;
+	
+	}
